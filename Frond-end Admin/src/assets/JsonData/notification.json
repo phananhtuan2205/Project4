@@ -1,0 +1,22 @@
+[
+    {
+        "icon": "bx bx-cart",
+        "content": "Đang giao hàng"
+    },
+    {
+        "icon": "bx bx-package",
+        "content": "Đã thanh toán thành công"
+    },
+    {
+        "icon": "bx bx-error",
+        "content": "Bom hàng"
+    },
+    {
+        "icon": "bx bx-cart",
+        "content": "Đang được vận chuyển vào kho"
+    },
+    {
+        "icon": "bx bx-cart",
+        "content": "Đã rời kho"
+    }
+]

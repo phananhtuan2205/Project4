@@ -1,0 +1,146 @@
+.container-fruit1{
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 10%), 0 2px 6px 2px rgb(60 64 67 / 15%);
+    padding: 10px;
+    .foot{
+        margin-top: 0%;
+        width: 50%;
+        margin-left: 600px;
+        .imgfooter{
+            margin-top: 5px;
+            float: left;
+            img{
+                width: 80px;
+                padding: 10px;
+                height: 80px;
+                opacity: 0.7;               
+                border-radius: 20px;
+                cursor:pointer;
+                margin-left: 10px;
+            }
+        }
+        .add-to-cart{
+
+            .ADD{
+                width: 150px;
+                background: rgb(225, 75, 75);
+                position: relative;
+                display: flex;
+                font-size: 16px;
+                margin-top: 20px;
+                margin-left: 30px;
+                padding: 3px;
+                color: white;
+                border-radius: 10px;
+                i{
+                    margin-left: 5px;
+                    position: absolute;
+                }
+                button{
+                    margin-left: 20px;
+                    border: none;
+                    background: transparent;
+                }
+            }
+            margin-top: 100px;
+            width: 100%;
+            margin-right: 100px;
+
+            .quantity{
+                margin-left: 30px;
+                input{
+                    width: 50px;
+                    background:  transparent;
+                    border: none;
+                    margin-left: 20px;
+                }
+                button{
+                    border: none;
+                    background: wheat;
+                }
+                font-size: 15px;
+                margin-top: 5px;
+                margin-bottom  : 5px;
+            }
+        }
+    }
+    width: 80%;
+    margin: 0px auto;
+    .Detail-Pro{
+        width: 95%;
+        padding: 5px;
+        margin: 0px auto;
+       
+    }
+    .col-md-5{
+        img{
+            border: none;
+            width: 80%;
+            height: 400px;
+        }
+    }
+    .col-md-7{    
+        padding: 0%;    
+        h1{
+            text-align: center;
+        }
+        .Title{
+            margin-top: 30px;
+            font-size: 17px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: gray;
+            
+        }
+        
+        .row-child{
+            margin: 0px auto;
+            .col-md-5{
+                height: 300px;
+                .infor{
+                    width: 100%;
+                    margin-top: 30px;
+                    position: static;   
+                    height: 370px;
+                    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 10%), 0 2px 6px 2px rgb(60 64 67 / 15%);
+                    border-radius: 10px;
+                    padding: 10px;
+                    h2{
+                        margin-left: 10px;
+                        font-size: 16px;
+                        color: #363636;
+                        font-weight: 600;
+                        line-height: 1.125;
+                        word-break: break-word;
+                    }
+                    .container.mt-3{
+                        height: 80%;
+                        border-radius: 10px;
+                        margin-bottom: 10px;
+                        border: 1px solid;
+                        .list-group-item{
+                            padding: auto;
+                            width: 100%;    
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between!important;
+                            margin-bottom: 10px;
+                            p{
+                                width: 50%;
+                            }
+                            div{
+                                width: 50%;
+                            }
+                            
+                        }
+                        
+                    }
+                    }
+                }
+            }
+        }
+    }
+
+.list-group-item:nth-child(even){background-color: #f2f2f2; width: 100%;}
+img.active{
+    border: 1px solid rgb(7, 11, 11);
+    opacity: 1;
+}
